@@ -1,0 +1,52 @@
+    /* Add your custom styles here */
+    body {
+      padding-top: 70px; /* Adjust based on navbar height */
+    }
+	
+	
+.card-tooltip {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.card-tooltip::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  background: #3498db;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.card-tooltip-content {
+  text-align: left;
+}
+
+.card-tooltip-content h5 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.card-tooltip-content p {
+  margin-bottom: 5px;
+}
+
+.card:hover .card-tooltip {
+  bottom: 10%; /* Adjust this value to control the final position */
+  opacity: 1;
+}
+

@@ -1,0 +1,25 @@
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+.top 
+
+{
+
+margin: 0px;
+
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+   
+  }
+  .profile_info2 {
+    margin-top: 200px;
+  }

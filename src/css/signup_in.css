@@ -1,0 +1,36 @@
+body
+	{
+	
+	background-color:#6f86d6;
+	}
+        .content-wrapper {
+		width:900px;
+		height:400;
+            background-color: #f9f9f9; /* Set your desired background color */
+            padding: 20px; /* Adjust padding as needed */
+            border-radius: 40px; /* Add border radius */
+        }
+        .form-container {
+            margin-top: 50px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+  
+        .form-title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+  
+        .p-2 {
+            margin-right: 5px; /* Adjust the spacing between icons */
+			margin-top: 5px;
+            border-radius: 50px; /* Adjust the border radius */
+        }
+		.container
+		{
+		margin-top:200;
+		margin-right:300;
+		
+		}

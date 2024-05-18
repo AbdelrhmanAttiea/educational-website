@@ -1,0 +1,50 @@
+ /* Add your custom styles here */
+    /* Header */
+    .header {
+   
+      background-size: cover;
+      color: #fff;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .header-logo {
+      border-radius: 50%;
+      width: 150px; /* Adjust size as needed */
+      height: 150px; /* Adjust size as needed */
+      object-fit: cover;
+    }
+    /* Introduction */
+    .introduction {
+      padding: 50px 0;
+    }
+    /* Mission and Vision */
+    .mission-vision {
+      padding: 50px 0;
+    }
+    /* Core Values */
+    .core-values {
+      padding: 50px 0;
+    }
+    /* Team Members */
+    .team-members {
+      padding: 50px 0;
+    }
+    .team-member img {
+      max-width: 100%;
+      height: auto;
+    }
+    /* Testimonials */
+    .testimonials {
+      padding: 50px 0;
+    }
+    /* CTA */
+    .cta {
+      padding: 50px 0;
+    }
+    /* Footer */
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 50px 0;
+      text-align: center;
+    }

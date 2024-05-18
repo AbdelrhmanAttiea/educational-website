@@ -1,0 +1,23 @@
+ /* Custom CSS for the background image */
+    .bg-image {
+     background-image: url('../Images/online.jpg');
+      height: 300px;
+      width: 1600px; /* Adjust height as needed */
+      background-size:100% 100%;
+      background-position: center;
+ 
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+     
+     margin-top: -70px;
+    }
+    /* Custom CSS to position navbar below the background image */
+    .navbar {
+      margin-bottom: 300px;
+     
+      width: 100%;
+      top: 250px; /* Adjust top position to create space between navbar and background image */
+      z-index: 1000; /* Ensure navbar appears above background image */
+    }

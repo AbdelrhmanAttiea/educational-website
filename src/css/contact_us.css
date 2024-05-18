@@ -1,0 +1,11 @@
+/* Add custom styles here */
+    .contact-section {
+      padding: 80px 0;
+      background-color: #f8f9fa;
+    }
+    .contact-form {
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 5px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
